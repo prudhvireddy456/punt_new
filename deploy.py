@@ -2,7 +2,6 @@ from flask import Flask, request, redirect, url_for, flash, jsonify,render_templ
 import time
 import wave
 app=Flask(__name__)
-import pyaudio
 import deepgram
 import os
 import dotenv
