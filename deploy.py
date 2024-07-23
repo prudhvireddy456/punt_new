@@ -2,9 +2,7 @@ from flask import Flask, request, redirect, url_for, flash, jsonify,render_templ
 import time
 import wave
 app=Flask(__name__)
-import deepgram
 import os
-import dotenv
 from dotenv import load_dotenv
 import google.generativeai as genai
 from deepgram import DeepgramClient,PrerecordedOptions,FileSource,SpeakOptions
